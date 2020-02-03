@@ -4,7 +4,7 @@ import serial
 import time
 
 #initialise a serial port (name of port, baud rate). The name will likely be different on your computer
-ser = serial.Serial('/dev/ttyACM0',9600)
+ser = serial.Serial('/dev/ttyACM1',9600)
 
 #read initial serial message
 answer = ser.readline()
