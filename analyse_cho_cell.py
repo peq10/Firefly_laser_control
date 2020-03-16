@@ -17,8 +17,8 @@ def load_ephys(path,lazy = False):
     return bl
 
 #file in dropbox
-ephys_fname = '/home/peter/Dropbox/Imperial/MScSupervision/20170208_CHO_noNR_Cell4/Cell4TCourse.smr'
-calibration_fname = '/home/peter/Dropbox/Imperial/MScSupervision/20170208_CHO_noNR_Cell4/power_calibration_980nm_8um_spot.dat'
+ephys_fname = '/home/peter/OneDrive/MScSupervision/20170208_CHO_noNR_Cell4/Cell4TCourse.smr'
+calibration_fname = '/home/peter/OneDrive/MScSupervision/20170208_CHO_noNR_Cell4/power_calibration_980nm_8um_spot.dat'
 
 #load using python-neo
 ephys = load_ephys(ephys_fname)
